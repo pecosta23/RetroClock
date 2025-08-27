@@ -32,11 +32,11 @@ function App() {
   const getRotation = (unit: string) => {
     switch (unit) {
       case 'seconds':
-        return (time.getSeconds() * 6) - 90; // 360/60 = 6 degrees per second
+        return time.getSeconds() * 6
       case 'minutes':
-        return (time.getMinutes() * 6) - 90; // 360/60 = 6 degrees per minute
+        return time.getMinutes() * 6 + time.getSeconds() * 0.1
       case 'hours':
-        return ((time.getHours() % 12) * 30 + time.getMinutes() * 0.5) - 90; // 360/12 = 30 degrees per hour
+        return (time.getHours() % 12) * 30 + time.getMinutes() * 0.5 + time.getSeconds() * (0.5 / 60);
       default:
         return 0;
     }
