@@ -79,9 +79,9 @@ function App() {
                   key={i}
                   className="absolute w-0.5 h-2 bg-gray-400"
                   style={{
-                    top: '50%',
-                    left: '50%',
-                    transform: `rotate(${i * 30}deg) translate(-50%, -41px)`,
+                    top: '46%',
+                    left: '49%',
+                    transform: `rotate(${i * 30}deg) translate(-50%, -40px)`,
                     transformOrigin: 'center',
                   }}
                 />
