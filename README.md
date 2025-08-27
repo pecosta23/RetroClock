@@ -1,3 +1,3 @@
 # Just a clock
 
-but a realky good looking one
+but a really good looking one with tsx
