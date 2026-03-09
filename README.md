@@ -1,8 +1,3 @@
-# Just a clock
+# A clock
 
-but a really good looking one with tsx
-
-
-# Access at
-
-https://retroclock.vercel.app 🚀
+Thanks for visiting this page, here you will find my repo for a really good looking clock with tsx
